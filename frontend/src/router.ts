@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
-import TodosView from "../src/views/TodosView.vue";
+import ArticlesView from "./views/ArticlesView.vue";
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: "/",
-      component: TodosView,
+      component: ArticlesView,
     },
   ],
 });

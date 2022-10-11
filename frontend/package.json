@@ -2,18 +2,20 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "yarn graphql-codegen --watch"
   },
   "dependencies": {
     "@apollo/client": "^3.7.0",
+    "@element-plus/icons-vue": "^2.0.10",
     "@graphql-codegen/typescript-operations": "^2.5.3",
     "@graphql-codegen/typescript-vue-apollo": "^3.3.3",
     "@vue/apollo-composable": "^4.0.0-beta.1",
     "@vue/apollo-util": "^4.0.0-alpha.18",
+    "element-plus": "^2.2.17",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
     "vue": "^3.2.37",
